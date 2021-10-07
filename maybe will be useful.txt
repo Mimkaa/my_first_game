@@ -1,0 +1,7 @@
+#if  sprite.rect.bottom > self.rect.top and sprite.rect.bottom < self.rect.bottom and sprite.rect.left > self.rect.left and sprite.rect.right<self.rect.right:
+                #if sprite.rect.top > self.rect.top and sprite.rect.top < self.rect.bottom and sprite.rect.left < self.rect.right and sprite.rect.right>self.rect.right-self.rect.width/2:
+                    #self.image.blit(pg.transform.rotate(sprite.image, 90), self.game.camera.apply(sprite))
+                    #self.angle=0
+                #if sprite.rect.top > self.rect.top and sprite.rect.top < self.rect.bottom and sprite.rect.right > self.rect.left and sprite.rect.left < self.rect.left+self.rect.width/2:
+                    #self.image.blit(pg.transform.rotate(sprite.image, 270), self.game.camera.apply(sprite))
+                    #self.angle=1

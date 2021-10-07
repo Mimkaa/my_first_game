@@ -1,0 +1,50 @@
+# if num==1:
+            #     if self.current_frame==2:
+            #         height=self.rect.height
+            #         self.image=pg.transform.scale(self.image,(TILESIZE,int(TILESIZE*1.25)))
+            #         self.rect=self.image.get_rect()
+            #         self.rect.height+=self.rect.height-height
+            #         self.hit_rect=self.image.get_rect()
+            #     elif self.current_frame==3 and self.turn_right:
+            #         self.image = pg.transform.scale(self.image, (int(TILESIZE * 1.5),TILESIZE))
+            #         self.rect = self.image.get_rect()
+            #         self.rect.width = int(self.rect.width/2)
+            #         self.hit_rect = self.image.get_rect()
+            #         self.hit_rect.width*=1.5
+            #     elif self.current_frame==3 and self.turn_left:
+            #         width = self.rect.width
+            #         self.image = pg.transform.scale(self.image, (int(TILESIZE * 1.5), TILESIZE))
+            #         self.rect = self.image.get_rect()
+            #         self.rect.width+=self.rect.width-width/2
+            #         self.hit_rect = self.image.get_rect()
+            #         self.hit_rect.width+=width
+            #     else:
+            #         self.image = pg.transform.scale(self.image, (int(TILESIZE/2)+10,TILESIZE))
+            #         self.rect = self.image.get_rect()
+            #         self.hit_rect = self.rect
+            # else:
+            #     if self.current_frame==2:
+            #         height=self.rect.height
+            #         self.image=pg.transform.scale(self.image,(TILESIZE,int(TILESIZE*1.25)))
+            #         self.rect=self.image.get_rect()
+            #         self.rect.height+=self.rect.height-height
+            #         self.hit_rect=self.image.get_rect()
+            #     elif self.current_frame==3 and self.turn_back:
+            #         self.image = pg.transform.scale(self.image, (TILESIZE,int(TILESIZE * 2)))
+            #         self.rect = self.image.get_rect()
+            #         self.rect.height+=self.rect.height-int(self.rect.height*0.5)
+            #         self.hit_rect = self.rect
+            #
+            #     elif self.current_frame==3 and self.turn_forth:
+            #         height = self.rect.height
+            #         self.image = pg.transform.scale(self.image, (TILESIZE,int(TILESIZE * 2)))
+            #         self.rect = self.image.get_rect()
+            #         self.rect.height -= self.rect.height - int(self.rect.height * 0.75)
+            #         self.hit_rect = self.image.get_rect()
+            #         self.hit_rect.height+=self.hit_rect.height- int(self.rect.height * 0.99)
+            #     else:
+            #         self.image = pg.transform.scale(self.image, (TILESIZE,TILESIZE))
+            #         self.rect = self.image.get_rect()
+            #         self.hit_rect = self.rect
+            # if self.current_frame==4:
+            #     self.eat = False

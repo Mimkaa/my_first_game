@@ -1,0 +1,31 @@
+# if len(simple_pass) > 1:
+        #     if simple_pass[0]:
+        #         if not simple_pass[1]:
+        #             if now - cut_scene.time > cut_scene.dialog_time:
+        #                 cut_scene.time = now
+        #                 cut_scene.text_counter = 0
+        #                 cut_scene.step += 1
+        #         else:
+        #             if now - cut_scene.time > cut_scene.dialog_time:
+        #                 cut_scene.time = now
+        #                 cut_scene.cut_scene_running = False
+        #     else:
+        #         if space:
+        #             if not simple_pass[1]:
+        #                 if cut_scene.skipped_text:
+        #                     cut_scene.step += 1
+        #                     cut_scene.time = now
+        #             else:
+        #                 cut_scene.cut_scene_running = False
+        # elif len(simple_pass)==1:
+        #     if simple_pass[0]:
+        #         if now - cut_scene.time > cut_scene.dialog_time:
+        #             cut_scene.time = now
+        #             cut_scene.text_counter = 0
+        #             cut_scene.step += 1
+        #     else:
+        #         if space:
+        #             if cut_scene.skipped_text:
+        #                 cut_scene.text_counter = 0
+        #                 cut_scene.time = now
+        #                 cut_scene.step += 1
